@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text color for readability */
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Shared Section Styling for Centering */
+.profile-card, .about-section, #education, .bookshelf {
+    background-color: #1e1e1e; /* Darker background for sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Specific Section Adjustments */
+.about-section h2, #education h2, .bookshelf h1 {
+    margin: 0 0 20px;
+    font-size: 22px;
+    color: #ffffff; /* White color for section headers */
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #ffffff; /* White color for profile name */
+}
+
+.profile-info, .about-section-content {
+    text-align: center;
+}
+
+.profile-info p, .about-section p, .education-item p, .book-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #b0b0b0; /* Adjusted to match "About Me" text color */
+    font-weight: normal; /* Ensure the same font weight as "About Me" */
+}
+
+/* Image and Links */
+.profile-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #81a1c1; /* Soft blue color for links */
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Bookshelf Section Specific Styling */
+.bookshelf h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.book img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.book-info h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #88c0d0; /* Lighter blue for book titles */
+}
+
+.book-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #b0b0b0; /* Match the color of "About Me" text */
+    font-weight: normal; /* Ensure same font weight as "About Me" text */
+}
+
+.book-info p:last-child {
+    color: #b0b0b0; /* Ensure the last paragraph matches as well */
+}
+
+/* Education Section */
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #88c0d0; /* Match book title color */
+}
